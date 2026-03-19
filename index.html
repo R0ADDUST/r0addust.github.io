@@ -1,0 +1,115 @@
+<html>
+<head>	
+	<title>RoadDust's Uncanny Games</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="RoadDust's Uncanny Games - RoadTato indie games, experimental projects, itch.io and steam releases.">
+
+
+	<style>
+	/* General page font + color */
+	body {
+    	    font-family: Arial, Helvetica, sans-serif;
+    	    color: #ffffff;
+	    margin: 0;
+	}
+	.container {
+	    display: flex;
+	    flex-wrap: wrap; /* allows stacking on small screens */
+	    gap: 20px;
+	    align-items: flex-start;
+	}
+
+	/* Default: side-by-side */
+	.container table {
+	    width: 48%;
+	}
+
+        /* Your text block */
+	.intro-text {
+    	    color: #ffffff;
+    	    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    	    font-size: 18px;
+    	    line-height: 1.7;
+    	    max-width: 750px;
+    	    margin: 0 auto 12px auto; /* centers + spacing between paragraphs */
+    	    padding: 0 15px;
+    	    text-align: left;
+	}
+
+	.roadtato-bg {
+    	    background-image: url('img/RoadTato Games BG.jpg');
+    	    background-size: cover;        /* fills entire table */
+    	    background-repeat: no-repeat;  /* stops tiling */
+    	    background-position: center;   /* keeps it centered */
+	}
+
+	.embed-frame {
+    	    width: 100%;
+    	    max-width: 646px;
+    	    display: block;
+    	    margin: 0 auto 12px auto;
+	}
+
+	/* Mobile: stack */
+	@media (max-width: 700px) {
+	    .container table {
+	        width: 100%;
+	    }
+	    .intro-text {
+                font-size: 20px;
+            }
+	}
+
+	</style>
+	
+</head>
+<body background='img/bgGrid.png'>
+	<img src='img/RoadDust Uncanny Games.jpg' width='100%' alt="RoadDust's Uncanny Games banner"><br>
+
+	<div class="container">
+	
+	<table bgcolor='#000000'>
+		<tr>
+			<td>
+				<p class="intro-text">
+				Welcome to RoadDust’s Uncanny Games. We’re indie game developers working on a variety of experimental and creative projects. Here you’ll find our current indie games and prototypes, including releases on itch.io and our upcoming title Snaps on Steam.
+				</p>
+				<p class="intro-text">
+				If you’d like to get in touch—for feedback, collaboration, or any reason at all—feel free to reach out via email.
+				</p>
+				<img src='img/roadtatogames.jpg' width='45%' align='right' alt="RoadTato Games email address">
+
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<img src='img/Snaps Banner.jpg' width='100%' alt="Snaps game banner">
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<iframe class="embed-frame" src="https://store.steampowered.com/widget/2968850/" frameborder="0" width="646" height="190"></iframe>
+			</td>
+		</tr>
+	</table>
+
+	<table class="roadtato-bg" bgcolor='#ffffff'>
+		<tr >
+			<td>
+				<img src='img/RoadTato Games.jpg' width='100%' alt="RoadTato Games banner">
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<iframe class="embed-frame" frameborder="0" src="https://itch.io/embed/883103" width="552" height="167"><a href="https://roaddust.itch.io/jos-house">Jo's House by RoadDust, Patato1212</a></iframe>
+				<iframe class="embed-frame" frameborder="0" src="https://itch.io/embed/956187" width="552" height="167"><a href="https://roaddust.itch.io/haggle">HAGgle by RoadDust, Patato1212</a></iframe>
+				<iframe class="embed-frame" frameborder="0" src="https://itch.io/embed/1580442" width="552" height="167"><a href="https://roaddust.itch.io/fist-2-face">Fist 2 Face by RoadDust</a></iframe>
+			</td>
+		</tr>
+	</table>
+	</div>
+
+	
+</body>
+</html>
